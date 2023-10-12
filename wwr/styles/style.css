@@ -88,6 +88,7 @@ h4
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover
@@ -105,6 +106,7 @@ h4
     font-family: Ubuntu, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .join:hover
@@ -124,10 +126,20 @@ main section
     text-align: center;
 }
 
+main section img
+{
+    box-sizing: border-box;
+}
+
 .icon
 {
     width: 80px;
     padding-top: 10px;
+}
+
+.card-img
+{
+    border: 10px black solid;
 }
 
 .rivers-card
