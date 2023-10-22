@@ -165,20 +165,26 @@
   width: 200px; 
   height: 200px; 
   background-color: green; 
-  offset-position: bottom left;
+  position: relative;
+  top: 200px;
   z-index: 2;
 } 
 .yellow6 {
   width: 200px; 
   height: 400px; 
   background-color: gold; 
+  position: relative;
+  bottom: 200px;
+  left: 400px;
   z-index: 2;
-  offset-position: bottom right;
 } 
 .blue6 {
   width: 400px; 
   height: 400px; 
   background-color: blue; 
+  position: relative;
+  bottom: 700px;
+  left: 100px;
   z-index: 1;
 } 
 
