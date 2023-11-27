@@ -50,6 +50,15 @@ content
     text-align: center;
 }
 
+.home-title-r
+{
+    color: #1E1068;
+    font-family: "Permanent Marker";
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+
 nav a
 {
     text-align: center;
@@ -167,6 +176,30 @@ main section img
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.river-left
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.rivers
+{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.river-title
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.river-p
+{
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 
 .card-img
