@@ -109,7 +109,13 @@ footer .social img
 {
     background-color: #009FFD;
     padding: 10px;
-    justify-self: center;
+    text-align: center;
+    font-size: 50px;
+    max-width: 500px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+    top: -1330px;
 }
 
 .description-title
@@ -129,11 +135,34 @@ footer .social img
 }
 
 /* Hero */
-#hero
+#hero-img
 {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    width: 100%;
+    position:  relative;
+    top: 50px;
+}
+
+.button-box
+{
+    margin: auto;
+    width: 10%;
+    position: relative;
+    top: -140px;
+}
+
+.book
+{
+    text-decoration: none;
+    background-color: #136F63;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.book:hover
+{
+    background-color: #4F359B;
 }
 
 /* Images */
