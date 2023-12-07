@@ -6,8 +6,8 @@ body
     background-color: white;
     font-family: "Fragment Mono", Helvetica, sans-serif;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -105,9 +105,11 @@ footer .social img
 /* ********** HOME PAGE ********** */
 
 /* Headers */
-.home-title
+.msg
 {
     background-color: #009FFD;
+    padding: 10px;
+    justify-self: center;
 }
 
 .description-title
@@ -124,6 +126,14 @@ footer .social img
 .testimonial-title
 {
     background-color: #009FFD;
+}
+
+/* Hero */
+#hero
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr 1fr 1fr;
 }
 
 /* Images */
