@@ -104,7 +104,7 @@ footer .social img
 
 /* ********** HOME PAGE ********** */
 
-/* Headers */
+/* Hero */
 .msg
 {
     background-color: #009FFD;
@@ -118,30 +118,6 @@ footer .social img
     top: -1330px;
 }
 
-.description-title
-{
-    background-color: #009FFD;
-    padding: 10px;
-    text-align: center;
-    font-size: 35px;
-    max-width: 150px;
-    border-radius: 5px;
-    margin: auto;
-    width: 10%;
-}
-
-.hype-title
-{
-    background-color: #4F359B;
-    color: white;
-}
-
-.testimonial-title
-{
-    background-color: #009FFD;
-}
-
-/* Hero */
 #hero-img
 {
     width: 100%;
@@ -168,12 +144,26 @@ footer .social img
 }
 
 /* Description */
+.description-title
+{
+    background-color: #009FFD;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    max-width: 150px;
+    border-radius: 5px;
+    margin: auto;
+    width: 10%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
 #description p
 {
     background-color: #4F359B;
     color: white;
     padding: 10px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .book:hover
@@ -185,13 +175,15 @@ footer .social img
 #hype
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 15px;
+    margin-top: 25px;
 }
 
 #hype-background
 {
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 2/7;
     background-color: #136F63;
 }
@@ -200,15 +192,23 @@ footer .social img
 {
     grid-column: 2/3;
     grid-row: 4/5;
+    text-align: center;
+    padding: 25px;
+    background-color: #4F359B;
+    color: white;
+    margin: 25px;
+    border-radius: 5px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
 
 #hype-image
 {
-    grid-column: 4/7;
+    grid-column: 3/6;
     grid-row: 1/6;
     border: 5px black solid;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
 
 /* Testimonials */
@@ -223,6 +223,14 @@ footer .social img
 {
     grid-column: 3/6;
     grid-row: 1/2;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+    font-size: 45px;
+    border-radius: 5px;
+    background-color: #009FFD;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
 
 #testimonial-1
@@ -238,6 +246,9 @@ footer .social img
     grid-row: 3/4;
     background-color: #4F359B;
     color: white;
+    padding: 15px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
 
 #testimonial-2
@@ -253,6 +264,9 @@ footer .social img
     grid-row: 3/4;
     background-color: #4F359B;
     color: white;
+    padding: 15px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
 
 #testimonial-3
@@ -268,6 +282,13 @@ footer .social img
     grid-row: 3/4;
     background-color: #4F359B;
     color: white;
+    padding: 15px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
 }
+
+/* ************* END ************* */
+
+/* ************ Hikes ************ */
 
 /* ************* END ************* */
