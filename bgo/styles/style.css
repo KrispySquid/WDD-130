@@ -291,4 +291,118 @@ footer .social img
 
 /* ************ Hikes ************ */
 
+/* Hero */
+#hero-box img
+{
+    width: 100%;
+}
+
+#hikes-title
+{
+    background-color: #4F359B;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    max-width: 500px;
+    border-radius: 5px;
+    margin: auto;
+    width: 10%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+    position: relative;
+    top: 30px;
+}
+
+/* Right */
+#right
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: #4F359B;
+    padding: 15px;
+    margin: 15px;
+}
+
+#right-title
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #009FFD;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
+#right-p
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#right-img
+{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 100%;
+    align-self: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
+/* Left */
+#left
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 15px;
+    margin: 15px;
+}
+
+#left-title
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #136F63;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
+#left-p
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#left-img
+{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    align-self: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
 /* ************* END ************* */
