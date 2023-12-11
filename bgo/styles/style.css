@@ -406,3 +406,28 @@ footer .social img
 }
 
 /* ************* END ************* */
+
+/* ********** Gear List ********** */
+
+/* Hero */
+#gearlist-title
+{
+    background-color: #4F359B;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    max-width: 1000px;
+    border-radius: 5px;
+    margin: auto;
+    width: 20%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3c3c;
+}
+
+/* Icons */
+
+/* Gear Description */
+
+/* Misc List */
+
+/* ************* END ************* */
