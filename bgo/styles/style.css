@@ -121,6 +121,13 @@ footer .social img
 .description-title
 {
     background-color: #009FFD;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    max-width: 150px;
+    border-radius: 5px;
+    margin: auto;
+    width: 10%;
 }
 
 .hype-title
@@ -158,6 +165,15 @@ footer .social img
     color: white;
     padding: 15px;
     border-radius: 10px;
+}
+
+/* Description */
+#description p
+{
+    background-color: #4F359B;
+    color: white;
+    padding: 10px;
+    margin: 5px;
 }
 
 .book:hover
