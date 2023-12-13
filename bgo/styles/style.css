@@ -167,10 +167,10 @@ footer .social img
     padding: 10px;
     text-align: center;
     font-size: 35px;
-    max-width: 150px;
+    max-width: 500px;
     border-radius: 5px;
     margin: auto;
-    width: 10%;
+    width: 90%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #3c3c3c;
 }
